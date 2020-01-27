@@ -2,70 +2,104 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Team Profile Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Over+the+Rainbow&display=swap" rel="stylesheet" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/257de25400.js" crossorigin="anonymous"></script>
-
-    <title>Team</title>
+    <style>
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media1.giphy.com/media/jLK74MUW07RaU/giphy.gif?cid=790b76110877261054f490c0ebad1542d25952a74b1c11fb&rid=giphy.gif") center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            margin: 0%;
+            height: 100vh;
+            font-family: "Permanent Marker", cursive;
+        }
+        
+        .header {
+            text-align: center;
+            font-size: 30px;
+            letter-spacing: 1.2rem;
+            color: #fff;
+            font-family: "Over the Rainbow", cursive;
+            font-family: "Fascinate Inline", cursive;
+        }
+        
+        .container-body {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .card {
+            border: solid black;
+            font-size: x-large;
+            border-radius: 10px;
+            text-align: center;
+            color: #fff;
+        }
+        
+        li {
+            list-style: none;
+            border: 1px solid black;
+            border-radius: 6px;
+            font-family: "Indie Flower", cursive;
+            padding: 10px;
+            position: relative;
+            right: 5.5%;
+            margin-top: 3px;
+            background-color: rgb(252, 247, 247);
+            color: black;
+        }
+        
+        .card-header {
+            margin: 10%;
+        }
+        
+        .card-body {}
+    </style>
+   
 </head>
+    
+    <body>
+   <div class=header>
+       <h1>My Team</h1>
+   </div>
+   <div class="container-body">
 
-<style>
-    body {
-        box-sizing: border-box;
-    }
-    
-    .container-fluid {
-        text-align: center;
-        border: 1px solid black;
-        height: 150px;
-    }
-    
-    .myTeam {
-        position: relative;
-        top: 35%;
-    }
-    
-    .card {
-        max-width: 350px;
-    }
-    
-    .title {
-        text-align: center;
-    }
-    
-    li {
-        list-style: none;
-    }
-</style>
+         <div class="card">
+<div class="card-header">
+    <h2>niko</h2>  
+    <h2><i class="far fa-user"></i> intern</h2>
+    <hr>
+</div>
+<div class="card-body">
+    <ul>
+        <li>ID: 24</li>
+        <li>Email: nikosomeexample.com</li>
+        <li>undefined </li>
+    </ul>
+</div>
+</div><div class="card">
+<div class="card-header">
+    <h2>niko2</h2>  
+    <h2><i class="far fa-user"></i> Manager</h2>
+    <hr>
+</div>
+<div class="card-body">
+    <ul>
+        <li>ID: 22</li>
+        <li>Email: someexample.com</li>
+        <li>Office Number: 23 </li>
+    </ul>
+</div>
+</div> 
 
-<body>
-    <div class="container-fluid">
-        <h1 class="myTeam">My team</h1>
-    </div>
-    <!-- cards -->
-    <div class="card">
-        <img src="https://media2.giphy.com/media/SiEF80pqzJHhM3dOw0/giphy.webp?cid=790b761125ec79a1593b1c012f8d8c830a8ebb285f4512bb&rid=giphy.webp" class="card-img-top" alt="..." />
-        <div class="card-body">
-            <h2 class="title">Manager</h2>
-            <ul>
-                <li>ID: 24</li>
-                <li>Email: SomeExample@gmail.com</li>
-                <li>Office: #8</li>
-            </ul>
-        </div>
-    </div>
-    <!-- end of card -->
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-
-</html>
+         </div>
+    <script src="https://kit.fontawesome.com/257de25400.js" crossorigin="anonymous"></script>         
+    </body>
+    
+    </html>

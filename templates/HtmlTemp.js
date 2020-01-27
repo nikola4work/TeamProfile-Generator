@@ -1,49 +1,68 @@
 const generateHTML = function(teamstr) {
-    console.log("Inside gen html");
+    console.log("Generate HTML");
     return `<!DOCTYPE html>
-    <html lang="en">
-    
-    <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>TPG</title>
-   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Bungee+Shade&display=swap" rel="stylesheet">
-   <style>
-       body {
-           background: url("https://media1.giphy.com/media/jLK74MUW07RaU/giphy.gif?cid=790b76110877261054f490c0ebad1542d25952a74b1c11fb&rid=giphy.gif") center;
-           background-size: 100% 100%;
-           background-repeat: no-repeat;
-           margin: 0%;
-           height: 100vh;
-       }
+<html lang="en">
 
-       .header {
-           background-color: rgb(245, 247, 155);
-           border: solid black;
-           text-align: center;
-           font-size: 30px;
-           font-family: 'Bungee Shade', cursive;  
-       }
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Team Profile Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Over+the+Rainbow&display=swap" rel="stylesheet" />
 
-       .container-body {
-           display: flex;
-           justify-content: space-evenly;
-       }
-
-       .card {
-           background-color:rgb(255, 255, 255);
-           margin-top: 4%;
-           border: solid black;
-           font-size: x-large;
-       }
-       .card-header{
-           margin: 10%;
-       }
-       .card-body{
-           margin: 5%;
-       }
-   </style>
+    <style>
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media1.giphy.com/media/jLK74MUW07RaU/giphy.gif?cid=790b76110877261054f490c0ebad1542d25952a74b1c11fb&rid=giphy.gif") center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            margin: 0%;
+            height: 100vh;
+            font-family: "Permanent Marker", cursive;
+        }
+        
+        .header {
+            text-align: center;
+            font-size: 30px;
+            letter-spacing: 1.2rem;
+            color: #fff;
+            font-family: "Over the Rainbow", cursive;
+            font-family: "Fascinate Inline", cursive;
+        }
+        
+        .container-body {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .card {
+            border: solid black;
+            font-size: x-large;
+            border-radius: 10px;
+            text-align: center;
+            color: #fff;
+        }
+        
+        li {
+            list-style: none;
+            border: 1px solid black;
+            border-radius: 6px;
+            font-family: "Indie Flower", cursive;
+            padding: 10px;
+            position: relative;
+            right: 5.5%;
+            margin-top: 3px;
+            background-color: rgb(252, 247, 247);
+            color: black;
+        }
+        
+        .card-header {
+            margin: 10%;
+        }
+        
+        .card-body {}
+    </style>
    
 </head>
     

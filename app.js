@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const util = require("util");
 //"util" module provides some functions to print formatted strings
 const Manager = require("./lib/Manager");
-const Engineer = require("./lib/Enginner");
+const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const html = require("./templates/HtmlTemp");
 
