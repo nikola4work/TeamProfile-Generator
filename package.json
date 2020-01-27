@@ -1,0 +1,32 @@
+{
+  "name": "teamprofile-generator",
+  "version": "1.0.0",
+  "description": "TeamProfile-generator app",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikola4work/TeamProfile-Generator.git"
+  },
+  "keywords": [
+    "Homework",
+    "8"
+  ],
+  "author": "Niko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikola4work/TeamProfile-Generator/issues"
+  },
+  "homepage": "https://github.com/nikola4work/TeamProfile-Generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "inquirer": "^7.0.4"
+  }
+}
