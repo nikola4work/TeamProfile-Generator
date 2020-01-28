@@ -1,26 +1,18 @@
-const fs = require("fs");
 const inquirer = require("inquirer");
+const fs = require("fs");
 const util = require("util");
-//"util" module provides some functions to print formatted strings
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
-const html = require("./templates/HtmlTemp");
+const html = require("./templates/htmltemp");
 
 const writeFileAsync = util.promisify(fs.writeFile);
-//call is used to create a Write Stream and file with given filename.
-
-const appendFile = util.promisify(fs.appendFile);
-
-//The node.js "util" module provides some functions to print formatted strings as well as some 'utility' functions that are helpful for debugging purposes.
-
-//promisify returns a function that will wrap the given nodeFunction .
+const appendFileAsync = util.promisify(fs.appendFile);
 
 let teamArray = [];
 let teamstr = ``;
 
-// async functions let you write Promise -based code as if it were synchronous. Once you define a function using the async keyword, then you can use the await keyword within the function's body
-
+//this calls all the functions in one in order
 async function main() {
     try {
         await prompt();
